@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --button-2: Roboto;
+  --headline-4: Spartan;
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --headline-4-size: 21px;
+  --subtitle-3-size: 12px;
+  --button-2-size: 14px;
+  --body-1-size: 16px;
+  --font-size-3xs: 10px;
+  --thumnail-size: 28px;
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+  --font-size-17xl: 36px;
+  --headline-6-size: 13px;
+
+  /* Colors */
+  --background: #fafafa;
+  --color-gray-100: #111010;
+  --states-black-overlay-hover: rgba(0, 0, 0, 0.04);
+  --color-gray-200: rgba(33, 33, 33, 0.08);
+  --color-gray-300: rgba(0, 0, 0, 0.87);
+  --outline: rgba(0, 0, 0, 0.12);
+  --color-gray-400: rgba(0, 0, 0, 0.54);
+  --on-background: rgba(0, 0, 0, 0.75);
+  --on-primary: #fff;
+  --primary: #694ed6;
+  --color-mediumslateblue-100: rgba(104, 78, 214, 0.24);
+  --surface-selected: rgba(105, 78, 214, 0.08);
+  --states-primary-overlay-hover: rgba(105, 78, 214, 0.04);
+  --color-silver: rgba(182, 182, 182, 0.45);
+  --success: #008744;
+  --error: #d60040;
+  --on-surface: #000;
+  --finastra-green-green-75: #5cdc9d;
+  --finastra-green-green-100: #26d07c;
+  --finastra-charcoal-charcoal-100: #414141;
+  --color-mediumvioletred: #c137a2;
+  --finastra-red-red-100: #f9423a;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-5xl: 24px;
+  --gap-27xl: 46px;
+  --gap-11xs: 2px;
+  --gap-8xs: 5px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-xs: 12px;
+  --padding-5xs: 8px;
+  --padding-3xs: 10px;
+  --padding-4xs: 9px;
+  --padding-5xl: 24px;
+  --padding-7xs: 6px;
+  --padding-9xs: 4px;
+  --padding-13xl: 32px;
+  --padding-xl: 20px;
+  --padding-mini: 15px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-lg: 18px;
+  --br-xs: 12px;
+  --br-base: 16px;
+  --br-5xs: 8px;
+  --br-16xl: 35px;
+
+  /* Effects */
+  --dp: 0px 6px 10px rgba(0, 0, 0, 0.11), 0px 1px 18px rgba(0, 0, 0, 0.09),
+    0px 3px 5px rgba(0, 0, 0, 0.16);
+  --effect: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --dp1: 0px 4px 5px rgba(0, 0, 0, 0.11), 0px 1px 10px rgba(0, 0, 0, 0.09),
+    0px 2px 4px rgba(0, 0, 0, 0.16);
+  --dp2: 0px 24px 38px rgba(0, 0, 0, 0.11), 0px 9px 46px rgba(0, 0, 0, 0.09),
+    0px 11px 15px rgba(0, 0, 0, 0.16);
+  --login-logout-backg: 0px 6px 10px rgba(0, 0, 0, 0.14),
+    0px 1px 18px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+  --dp3: 0px 1px 1px rgba(0, 0, 0, 0.11), 0px 2px 1px rgba(0, 0, 0, 0.09),
+    0px 1px 3px rgba(0, 0, 0, 0.16);
+}

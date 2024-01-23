@@ -1,0 +1,129 @@
+.mask-group-icon2 {
+  position: absolute;
+  height: 18.14%;
+  width: 44.28%;
+  top: 5.89%;
+  right: 27.94%;
+  bottom: 75.97%;
+  left: 27.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(180deg, #7072ff, rgba(255, 255, 255, 0));
+  width: 226px;
+  height: 293px;
+}
+.group-item {
+  position: absolute;
+  top: 13px;
+  left: 29px;
+  border-radius: var(--br-16xl);
+  width: 167px;
+  height: 198px;
+  object-fit: cover;
+}
+.gio-vin {
+  position: absolute;
+  top: 244px;
+  left: 33px;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 486px;
+  left: 191px;
+  width: 226px;
+  height: 293px;
+  cursor: pointer;
+}
+.group-inner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-16xl);
+  width: 226px;
+  height: 293px;
+}
+.hc-sinh {
+  position: absolute;
+  top: 244px;
+  left: 38px;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+.vector-parent {
+  position: absolute;
+  top: 486px;
+  left: 607px;
+  width: 226px;
+  height: 293px;
+}
+.group-child1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-16xl);
+  background: linear-gradient(180deg, #7072ff, #fff);
+  width: 226px;
+  height: 293px;
+}
+.ph-huynh {
+  position: absolute;
+  top: 244px;
+  left: 17px;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+.rectangle-group {
+  position: absolute;
+  top: 486px;
+  left: 959px;
+  width: 226px;
+  height: 293px;
+}
+.chn-vai-tr {
+  position: absolute;
+  top: 248px;
+  left: 99px;
+  font-size: 50px;
+  letter-spacing: -0.05em;
+  font-family: var(--button-2);
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+}
+.website-chm-bi {
+  margin: 0;
+}
+.website-chm-bi-container {
+  position: absolute;
+  top: 327px;
+  left: 99px;
+  font-size: 30px;
+  letter-spacing: -0.02em;
+  font-family: var(--button-2);
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  display: inline-block;
+  width: 620px;
+}
+.mc-nh {
+  position: relative;
+  background-color: var(--on-primary);
+  box-shadow: var(--effect);
+  border: 1px solid var(--on-surface);
+  box-sizing: border-box;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--on-surface);
+  font-family: var(--font-montserrat);
+}

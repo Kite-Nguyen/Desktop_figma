@@ -1,0 +1,232 @@
+.image-icon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 750px;
+  height: 900px;
+}
+.links1 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  letter-spacing: 0.25px;
+  line-height: 18px;
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+.links {
+  position: absolute;
+  bottom: 32px;
+  left: 80px;
+  width: 143px;
+  height: 18px;
+}
+.checkbox-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.label {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.divider-vertical-icon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 16px;
+}
+.link {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 18px;
+  font-weight: 300;
+  color: var(--primary);
+}
+.remember {
+  position: absolute;
+  top: 268px;
+  left: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: var(--subtitle-3-size);
+}
+.icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label1 {
+  position: relative;
+  letter-spacing: 1.25px;
+  line-height: 20px;
+}
+.button-contained {
+  position: absolute;
+  top: 218px;
+  left: 0px;
+  border-radius: var(--br-lg);
+  background-color: var(--primary);
+  width: 388px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  cursor: pointer;
+  color: var(--on-primary);
+}
+.icon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text-label {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 21px;
+  font-weight: 300;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--on-primary);
+  border: 1px solid var(--outline);
+  box-sizing: border-box;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xs) var(--padding-base)
+    var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.text {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.helper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  font-size: var(--subtitle-3-size);
+}
+.text-field-v2 {
+  position: absolute;
+  top: 109px;
+  left: 0px;
+  width: 388px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.helper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  gap: var(--gap-base);
+  font-size: var(--subtitle-3-size);
+}
+.text-field-v21 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 388px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.form {
+  position: absolute;
+  top: 372px;
+  left: 80px;
+  width: 388px;
+  height: 292px;
+  font-size: var(--button-2-size);
+  color: var(--color-gray-400);
+}
+.headline {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 29px;
+  font-weight: 800;
+}
+.title {
+  position: absolute;
+  top: 258.9px;
+  left: 80px;
+  width: 312px;
+  height: 29px;
+  font-size: var(--headline-4-size);
+  color: var(--on-background);
+}
+.mask-group-icon {
+  position: absolute;
+  height: 7.26%;
+  width: 17.72%;
+  top: 10.64%;
+  right: 76.73%;
+  bottom: 82.1%;
+  left: 5.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image-icon1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 678px;
+  height: 833.5px;
+  object-fit: cover;
+}
+.ng-nhp1 {
+  position: relative;
+  background-color: var(--background);
+  width: 1440px;
+  height: 900px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ng-nhp {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--subtitle-3-size);
+  color: var(--primary);
+  font-family: var(--button-2);
+}

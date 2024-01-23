@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./McNh.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mc-nh">
+      <img class="mask-group-icon2" alt="" src="./public/mask-group.svg" />
+
+      <div class="rectangle-parent" id="groupContainer">
+        <div class="group-child"></div>
+        <img class="group-item" alt="" src="./public/rectangle-292@2x.png" />
+
+        <div class="gio-vin">Giáo viên</div>
+      </div>
+      <div class="vector-parent">
+        <img class="group-inner" alt="" src="./public/rectangle-295.svg" />
+
+        <img class="group-item" alt="" src="./public/rectangle-292@2x.png" />
+
+        <div class="hc-sinh">Học sinh</div>
+      </div>
+      <div class="rectangle-group">
+        <div class="group-child1"></div>
+        <img class="group-item" alt="" src="./public/rectangle-292@2x.png" />
+
+        <div class="ph-huynh">Phụ huynh</div>
+      </div>
+      <b class="chn-vai-tr">Chọn vai trò</b>
+      <div class="website-chm-bi-container">
+        <p class="website-chm-bi">
+          Website chấm bài thông minh và hỗ trợ rèn luyện môn văn hiệu quả!
+        </p>
+        <p class="website-chm-bi">Bắt đầu với vai trò...</p>
+      </div>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./Detail.html";
+        });
+      }
+    </script>
+  </body>
+</html>

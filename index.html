@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="ng-nhp">
+      <div class="ng-nhp1">
+        <img class="image-icon" alt="" src="./public/image.svg" />
+
+        <div class="links">
+          <div class="links1">Support / Finastra.com</div>
+        </div>
+        <div class="form">
+          <div class="remember">
+            <img class="checkbox-icon" alt="" src="./public/checkbox.svg" />
+
+            <div class="label">Ghi nhớ đăng nhập</div>
+            <img
+              class="divider-vertical-icon"
+              alt=""
+              src="./public/divider-vertical.svg"
+            />
+
+            <div class="link">Quên mật khẩu?</div>
+          </div>
+          <div class="button-contained" id="buttonContainedContainer">
+            <img class="icon" alt="" src="./public/icon.svg" />
+
+            <b class="label1">Đăng nhập</b>
+          </div>
+          <div class="text-field-v2">
+            <div class="input">
+              <img class="icon1" alt="" src="./public/icon.svg" />
+
+              <div class="text-label">Mật khẩu</div>
+              <img class="icon1" alt="" src="./public/icon.svg" />
+            </div>
+            <div class="helper">
+              <div class="text">Nhập mật khẩu</div>
+            </div>
+          </div>
+          <div class="text-field-v21">
+            <div class="input">
+              <img class="icon1" alt="" src="./public/icon.svg" />
+
+              <div class="text-label">Tài khoản</div>
+            </div>
+            <div class="helper1">
+              <div class="text">Điền tài khoản đăng nhập</div>
+              <div class="label">0/20</div>
+            </div>
+          </div>
+        </div>
+        <div class="title">
+          <div class="headline">Đăng nhập vào tài khoản của bạn</div>
+        </div>
+        <img class="mask-group-icon" alt="" src="./public/mask-group.svg" />
+
+        <img class="image-icon1" alt="" src="./public/image@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var buttonContainedContainer = document.getElementById(
+        "buttonContainedContainer",
+      );
+      if (buttonContainedContainer) {
+        buttonContainedContainer.addEventListener("click", function (e) {
+          window.location.href = "./McNh.html";
+        });
+      }
+    </script>
+  </body>
+</html>

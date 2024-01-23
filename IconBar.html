@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./IconBar.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="icon-bar16">
+      <div class="icon-bar17">
+        <div class="content199">
+          <div class="icon-01-filled8" id="icon01Filled">
+            <div class="frame98">
+              <div class="background94"></div>
+              <img class="icon182" alt="" src="./public/icon.svg" />
+            </div>
+            <div class="label85">
+              <div class="text234">Tổng quan</div>
+            </div>
+          </div>
+          <div class="icon-02-filled8" id="icon02Filled">
+            <div class="frame98">
+              <div class="background95"></div>
+              <img class="icon182" alt="" src="./public/icon.svg" />
+            </div>
+            <div class="label85">
+              <div class="text234">Bài tập</div>
+            </div>
+          </div>
+          <div class="icon-02-filled8" id="icon03Filled">
+            <div class="frame98">
+              <div class="background95"></div>
+              <img class="icon182" alt="" src="./public/icon.svg" />
+            </div>
+            <div class="label85">
+              <div class="text234">Lớp học</div>
+            </div>
+          </div>
+          <div class="icon-02-filled8" id="icon04Filled">
+            <div class="frame98">
+              <div class="background95"></div>
+              <img class="icon182" alt="" src="./public/icon.svg" />
+            </div>
+            <div class="label85">
+              <div class="text234">Luyện đề</div>
+            </div>
+          </div>
+          <div class="icon-02-filled8" id="icon05Filled">
+            <div class="frame98">
+              <div class="background95"></div>
+              <img class="icon182" alt="" src="./public/icon.svg" />
+            </div>
+            <div class="label85">
+              <div class="text234">Hồ sơ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var icon01Filled = document.getElementById("icon01Filled");
+      if (icon01Filled) {
+        icon01Filled.addEventListener("click", function (e) {
+          window.location.href = "./Detail.html";
+        });
+      }
+
+      var icon02Filled = document.getElementById("icon02Filled");
+      if (icon02Filled) {
+        icon02Filled.addEventListener("click", function (e) {
+          window.location.href = "./HomeWork.html";
+        });
+      }
+
+      var icon03Filled = document.getElementById("icon03Filled");
+      if (icon03Filled) {
+        icon03Filled.addEventListener("click", function (e) {
+          window.location.href = "./Class.html";
+        });
+      }
+
+      var icon04Filled = document.getElementById("icon04Filled");
+      if (icon04Filled) {
+        icon04Filled.addEventListener("click", function (e) {
+          window.location.href = "./Component.html";
+        });
+      }
+
+      var icon05Filled = document.getElementById("icon05Filled");
+      if (icon05Filled) {
+        icon05Filled.addEventListener("click", function (e) {
+          window.location.href = "./Profile.html";
+        });
+      }
+    </script>
+  </body>
+</html>
